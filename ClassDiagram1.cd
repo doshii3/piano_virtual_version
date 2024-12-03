@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="piano.Form1">
+    <Position X="5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAgABACCAAAUAAACAAAACAAIAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Log">
+    <Position X="8.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAACAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="piano.Recorder">
+    <Position X="8" Y="0.5" Width="3.25" />
+    <AssociationLine Name="Form1" Type="piano.Form1" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="2.939" />
+        <Point X="7.835" Y="2.939" />
+        <Point X="7.835" Y="4.201" />
+        <Point X="6.75" Y="4.201" />
+        <Point X="6.75" Y="4.108" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAACBAgIAAAAAAAAEAAAAAAgAAAAAA=</HashCode>
+      <FileName>Recorder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Form1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="piano.SoundManager">
+    <Position X="1" Y="0.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="piano.SoundManager.LoopStream">
+        <TypeIdentifier>
+          <NewMemberFileName>SoundManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <AssociationLine Name="Form1" Type="piano.Form1" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="2.562" />
+        <Point X="4.7" Y="2.562" />
+        <Point X="4.7" Y="4.5" />
+        <Point X="5.5" Y="4.5" />
+        <Point X="5.5" Y="4.108" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAgAAACAAAAAAAAAAAAgAAgEAAAAIAAAAAAAAAAAACA=</HashCode>
+      <FileName>SoundManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Form1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="piano.Utilities">
+    <Position X="5.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
